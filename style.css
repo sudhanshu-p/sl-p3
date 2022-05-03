@@ -1,0 +1,81 @@
+body, html, * {
+    padding: 0px;
+    margin: 0;
+    z-index: 0;
+}
+/*
+.top {
+    display: flex;
+    justify-content: space-around;
+}*/
+.top {
+    display: flex;
+}
+
+.ra {
+    position: absolute;
+    right: 0;
+    color: white;
+    font-size: 2.5rem;
+}
+
+.rating {
+    padding-left: 7px;
+}
+
+.top {
+    justify-content: center;
+}
+
+.item {
+    display: flex;
+    justify-content: safe start;
+    width: 100%;
+    max-width: 700px;
+    border: 1px solid black;
+}
+
+.item > figure > img {
+    max-width: 30vw;
+}
+
+.item-info > h2, h3, h4, h5, h6, del, ins {
+    display: inline;
+}
+
+.item-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+nav, .top {
+    background-color: #00102a;
+    color: white;
+}
+
+nav > a {
+    color: white;
+    text-decoration: none;
+}
+
+button {
+    display: inline;
+    border: none;
+    padding: 5px;
+}
+
+.main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.yellow {
+    z-index: -1;
+}
